@@ -7,7 +7,7 @@ As the name suggests MGSudoku is a sudoku game. This is a private none-commercia
 * 9x9 and 16x16 Dimension
 * optional candidate visualisation
 * colored marking of candidates
-* automatic setting of colored candidates (long click on mark <color>)
+* automatic setting of colored candidates (long click on mark blue or mark green)
 
 ## Privacy
 
