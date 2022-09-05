@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Handler;
 import android.util.Log;
 
@@ -145,6 +147,11 @@ public class MainControl {
         public void showCandidatesRequested(boolean show) {
             gameState.setCandidatesUsed(gameState.isCandidatesUsed() | show);
             mainView.controlView.setPoints(gameState.getGamePoints(null));
+        }
+
+        @Override
+        public void showHelpRequested() {
+            showHelp();
         }
     };
 
@@ -348,6 +355,16 @@ public class MainControl {
             }
         }
         return true;
+    }
+
+
+    protected void showHelp(){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://mg4gh.github.io/MGSudoku/index.html"));
+        if (context instanceof Activity) {
+            Activity activity = (Activity) context;
+            activity.startActivity(browserIntent);
+        }
+
     }
 
 

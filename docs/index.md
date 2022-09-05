@@ -12,9 +12,10 @@ As the name suggests MGSudoku is a sudoku game. This is a private none-commercia
 ## Privacy
 
 This app doesn't require any permission. There is NO data transferred to any server.
-Therefore there is no information like "You are faster than ...% of al players."
+Therefore there is no information like "You are faster than ...% of all players."
 
 ## History
 
-The sudoku app I played increased the advertising and consumed almost my hole data budget - so I decided to make my own sudoku app.
+The sudoku app I played increased the advertising and consumed almost my whole data budget. 
+So I decided to delete this app and to make my own sudoku app.
 Once this is done, I would like to share this, that everybody may use it.

@@ -79,7 +79,8 @@ public class ControlView extends RelativeLayout {
 
         Button btHelp = textDetails.createButton(this,66,0, 33, 14, "Help", 4f);
         btHelp.setOnClickListener(v -> {
-            Toast.makeText(textDetails.context,"Not yet implemented",Toast.LENGTH_LONG).show();
+            controlViewListener.showHelpRequested();
+//            Toast.makeText(textDetails.context,"Not yet implemented",Toast.LENGTH_LONG).show();
         });
 
 

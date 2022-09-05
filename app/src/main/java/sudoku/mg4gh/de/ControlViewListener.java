@@ -14,4 +14,5 @@ public interface ControlViewListener {
 
     public void showCandidatesRequested(boolean show);
 
+    public void showHelpRequested();
 }
